@@ -4,7 +4,6 @@ false_words_file = open('false_words.txt', 'r').read().split(',')
 false_words = [w.strip(' ') for w in false_words_file]
 false_words = [w for w in false_words if w !='']
 print len(false_words), false_words
-#import_length = len(false_words_file)
 
 correct_words_file = open('correct_words.txt', 'r').read().split(',')
 correct_words = [w.strip(' ') for w in correct_words_file]
